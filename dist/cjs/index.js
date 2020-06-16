@@ -8,49 +8,49 @@ Object.defineProperty(exports, "__esModule", {
 Object.defineProperty(exports, "default", {
   enumerable: true,
   get: function get() {
-    return _defaultHighlight.default;
+    return _defaultHighlight["default"];
   }
 });
 Object.defineProperty(exports, "LightAsync", {
   enumerable: true,
   get: function get() {
-    return _lightAsync.default;
+    return _lightAsync["default"];
   }
 });
 Object.defineProperty(exports, "Light", {
   enumerable: true,
   get: function get() {
-    return _light.default;
+    return _light["default"];
   }
 });
 Object.defineProperty(exports, "PrismAsyncLight", {
   enumerable: true,
   get: function get() {
-    return _prismAsyncLight.default;
+    return _prismAsyncLight["default"];
   }
 });
 Object.defineProperty(exports, "PrismAsync", {
   enumerable: true,
   get: function get() {
-    return _prismAsync.default;
+    return _prismAsync["default"];
   }
 });
 Object.defineProperty(exports, "PrismLight", {
   enumerable: true,
   get: function get() {
-    return _prismLight.default;
+    return _prismLight["default"];
   }
 });
 Object.defineProperty(exports, "Prism", {
   enumerable: true,
   get: function get() {
-    return _prism.default;
+    return _prism["default"];
   }
 });
 Object.defineProperty(exports, "createElement", {
   enumerable: true,
   get: function get() {
-    return _createElement.default;
+    return _createElement["default"];
   }
 });
 

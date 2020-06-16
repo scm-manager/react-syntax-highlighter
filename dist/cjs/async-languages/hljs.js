@@ -5,935 +5,957 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = void 0;
+exports["default"] = void 0;
+
+var _interopRequireWildcard2 = _interopRequireDefault(require("@babel/runtime/helpers/interopRequireWildcard"));
 
 var _createLanguageAsyncLoader = _interopRequireDefault(require("./create-language-async-loader"));
 
 var _default = {
-  oneC: (0, _createLanguageAsyncLoader.default)("oneC", function () {
+  oneC: (0, _createLanguageAsyncLoader["default"])("oneC", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/1c");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/1c"));
     });
   }),
-  abnf: (0, _createLanguageAsyncLoader.default)("abnf", function () {
+  abnf: (0, _createLanguageAsyncLoader["default"])("abnf", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/abnf");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/abnf"));
     });
   }),
-  accesslog: (0, _createLanguageAsyncLoader.default)("accesslog", function () {
+  accesslog: (0, _createLanguageAsyncLoader["default"])("accesslog", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/accesslog");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/accesslog"));
     });
   }),
-  actionscript: (0, _createLanguageAsyncLoader.default)("actionscript", function () {
+  actionscript: (0, _createLanguageAsyncLoader["default"])("actionscript", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/actionscript");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/actionscript"));
     });
   }),
-  ada: (0, _createLanguageAsyncLoader.default)("ada", function () {
+  ada: (0, _createLanguageAsyncLoader["default"])("ada", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/ada");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/ada"));
     });
   }),
-  angelscript: (0, _createLanguageAsyncLoader.default)("angelscript", function () {
+  angelscript: (0, _createLanguageAsyncLoader["default"])("angelscript", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/angelscript");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/angelscript"));
     });
   }),
-  apache: (0, _createLanguageAsyncLoader.default)("apache", function () {
+  apache: (0, _createLanguageAsyncLoader["default"])("apache", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/apache");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/apache"));
     });
   }),
-  applescript: (0, _createLanguageAsyncLoader.default)("applescript", function () {
+  applescript: (0, _createLanguageAsyncLoader["default"])("applescript", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/applescript");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/applescript"));
     });
   }),
-  arcade: (0, _createLanguageAsyncLoader.default)("arcade", function () {
+  arcade: (0, _createLanguageAsyncLoader["default"])("arcade", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/arcade");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/arcade"));
     });
   }),
-  arduino: (0, _createLanguageAsyncLoader.default)("arduino", function () {
+  arduino: (0, _createLanguageAsyncLoader["default"])("arduino", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/arduino");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/arduino"));
     });
   }),
-  armasm: (0, _createLanguageAsyncLoader.default)("armasm", function () {
+  armasm: (0, _createLanguageAsyncLoader["default"])("armasm", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/armasm");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/armasm"));
     });
   }),
-  asciidoc: (0, _createLanguageAsyncLoader.default)("asciidoc", function () {
+  asciidoc: (0, _createLanguageAsyncLoader["default"])("asciidoc", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/asciidoc");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/asciidoc"));
     });
   }),
-  aspectj: (0, _createLanguageAsyncLoader.default)("aspectj", function () {
+  aspectj: (0, _createLanguageAsyncLoader["default"])("aspectj", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/aspectj");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/aspectj"));
     });
   }),
-  autohotkey: (0, _createLanguageAsyncLoader.default)("autohotkey", function () {
+  autohotkey: (0, _createLanguageAsyncLoader["default"])("autohotkey", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/autohotkey");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/autohotkey"));
     });
   }),
-  autoit: (0, _createLanguageAsyncLoader.default)("autoit", function () {
+  autoit: (0, _createLanguageAsyncLoader["default"])("autoit", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/autoit");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/autoit"));
     });
   }),
-  avrasm: (0, _createLanguageAsyncLoader.default)("avrasm", function () {
+  avrasm: (0, _createLanguageAsyncLoader["default"])("avrasm", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/avrasm");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/avrasm"));
     });
   }),
-  awk: (0, _createLanguageAsyncLoader.default)("awk", function () {
+  awk: (0, _createLanguageAsyncLoader["default"])("awk", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/awk");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/awk"));
     });
   }),
-  axapta: (0, _createLanguageAsyncLoader.default)("axapta", function () {
+  axapta: (0, _createLanguageAsyncLoader["default"])("axapta", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/axapta");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/axapta"));
     });
   }),
-  bash: (0, _createLanguageAsyncLoader.default)("bash", function () {
+  bash: (0, _createLanguageAsyncLoader["default"])("bash", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/bash");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/bash"));
     });
   }),
-  basic: (0, _createLanguageAsyncLoader.default)("basic", function () {
+  basic: (0, _createLanguageAsyncLoader["default"])("basic", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/basic");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/basic"));
     });
   }),
-  bnf: (0, _createLanguageAsyncLoader.default)("bnf", function () {
+  bnf: (0, _createLanguageAsyncLoader["default"])("bnf", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/bnf");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/bnf"));
     });
   }),
-  brainfuck: (0, _createLanguageAsyncLoader.default)("brainfuck", function () {
+  brainfuck: (0, _createLanguageAsyncLoader["default"])("brainfuck", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/brainfuck");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/brainfuck"));
     });
   }),
-  cal: (0, _createLanguageAsyncLoader.default)("cal", function () {
+  cLike: (0, _createLanguageAsyncLoader["default"])("cLike", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/cal");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/c-like"));
     });
   }),
-  capnproto: (0, _createLanguageAsyncLoader.default)("capnproto", function () {
+  c: (0, _createLanguageAsyncLoader["default"])("c", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/capnproto");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/c"));
     });
   }),
-  ceylon: (0, _createLanguageAsyncLoader.default)("ceylon", function () {
+  cal: (0, _createLanguageAsyncLoader["default"])("cal", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/ceylon");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/cal"));
     });
   }),
-  clean: (0, _createLanguageAsyncLoader.default)("clean", function () {
+  capnproto: (0, _createLanguageAsyncLoader["default"])("capnproto", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/clean");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/capnproto"));
     });
   }),
-  clojureRepl: (0, _createLanguageAsyncLoader.default)("clojureRepl", function () {
+  ceylon: (0, _createLanguageAsyncLoader["default"])("ceylon", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/clojure-repl");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/ceylon"));
     });
   }),
-  clojure: (0, _createLanguageAsyncLoader.default)("clojure", function () {
+  clean: (0, _createLanguageAsyncLoader["default"])("clean", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/clojure");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/clean"));
     });
   }),
-  cmake: (0, _createLanguageAsyncLoader.default)("cmake", function () {
+  clojureRepl: (0, _createLanguageAsyncLoader["default"])("clojureRepl", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/cmake");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/clojure-repl"));
     });
   }),
-  coffeescript: (0, _createLanguageAsyncLoader.default)("coffeescript", function () {
+  clojure: (0, _createLanguageAsyncLoader["default"])("clojure", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/coffeescript");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/clojure"));
     });
   }),
-  coq: (0, _createLanguageAsyncLoader.default)("coq", function () {
+  cmake: (0, _createLanguageAsyncLoader["default"])("cmake", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/coq");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/cmake"));
     });
   }),
-  cos: (0, _createLanguageAsyncLoader.default)("cos", function () {
+  coffeescript: (0, _createLanguageAsyncLoader["default"])("coffeescript", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/cos");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/coffeescript"));
     });
   }),
-  cpp: (0, _createLanguageAsyncLoader.default)("cpp", function () {
+  coq: (0, _createLanguageAsyncLoader["default"])("coq", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/cpp");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/coq"));
     });
   }),
-  crmsh: (0, _createLanguageAsyncLoader.default)("crmsh", function () {
+  cos: (0, _createLanguageAsyncLoader["default"])("cos", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/crmsh");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/cos"));
     });
   }),
-  crystal: (0, _createLanguageAsyncLoader.default)("crystal", function () {
+  cpp: (0, _createLanguageAsyncLoader["default"])("cpp", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/crystal");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/cpp"));
     });
   }),
-  cs: (0, _createLanguageAsyncLoader.default)("cs", function () {
+  crmsh: (0, _createLanguageAsyncLoader["default"])("crmsh", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/cs");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/crmsh"));
     });
   }),
-  csp: (0, _createLanguageAsyncLoader.default)("csp", function () {
+  crystal: (0, _createLanguageAsyncLoader["default"])("crystal", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/csp");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/crystal"));
     });
   }),
-  css: (0, _createLanguageAsyncLoader.default)("css", function () {
+  csharp: (0, _createLanguageAsyncLoader["default"])("csharp", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/css");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/csharp"));
     });
   }),
-  d: (0, _createLanguageAsyncLoader.default)("d", function () {
+  csp: (0, _createLanguageAsyncLoader["default"])("csp", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/d");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/csp"));
     });
   }),
-  dart: (0, _createLanguageAsyncLoader.default)("dart", function () {
+  css: (0, _createLanguageAsyncLoader["default"])("css", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/dart");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/css"));
     });
   }),
-  delphi: (0, _createLanguageAsyncLoader.default)("delphi", function () {
+  d: (0, _createLanguageAsyncLoader["default"])("d", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/delphi");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/d"));
     });
   }),
-  diff: (0, _createLanguageAsyncLoader.default)("diff", function () {
+  dart: (0, _createLanguageAsyncLoader["default"])("dart", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/diff");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/dart"));
     });
   }),
-  django: (0, _createLanguageAsyncLoader.default)("django", function () {
+  delphi: (0, _createLanguageAsyncLoader["default"])("delphi", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/django");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/delphi"));
     });
   }),
-  dns: (0, _createLanguageAsyncLoader.default)("dns", function () {
+  diff: (0, _createLanguageAsyncLoader["default"])("diff", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/dns");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/diff"));
     });
   }),
-  dockerfile: (0, _createLanguageAsyncLoader.default)("dockerfile", function () {
+  django: (0, _createLanguageAsyncLoader["default"])("django", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/dockerfile");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/django"));
     });
   }),
-  dos: (0, _createLanguageAsyncLoader.default)("dos", function () {
+  dns: (0, _createLanguageAsyncLoader["default"])("dns", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/dos");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/dns"));
     });
   }),
-  dsconfig: (0, _createLanguageAsyncLoader.default)("dsconfig", function () {
+  dockerfile: (0, _createLanguageAsyncLoader["default"])("dockerfile", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/dsconfig");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/dockerfile"));
     });
   }),
-  dts: (0, _createLanguageAsyncLoader.default)("dts", function () {
+  dos: (0, _createLanguageAsyncLoader["default"])("dos", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/dts");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/dos"));
     });
   }),
-  dust: (0, _createLanguageAsyncLoader.default)("dust", function () {
+  dsconfig: (0, _createLanguageAsyncLoader["default"])("dsconfig", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/dust");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/dsconfig"));
     });
   }),
-  ebnf: (0, _createLanguageAsyncLoader.default)("ebnf", function () {
+  dts: (0, _createLanguageAsyncLoader["default"])("dts", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/ebnf");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/dts"));
     });
   }),
-  elixir: (0, _createLanguageAsyncLoader.default)("elixir", function () {
+  dust: (0, _createLanguageAsyncLoader["default"])("dust", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/elixir");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/dust"));
     });
   }),
-  elm: (0, _createLanguageAsyncLoader.default)("elm", function () {
+  ebnf: (0, _createLanguageAsyncLoader["default"])("ebnf", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/elm");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/ebnf"));
     });
   }),
-  erb: (0, _createLanguageAsyncLoader.default)("erb", function () {
+  elixir: (0, _createLanguageAsyncLoader["default"])("elixir", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/erb");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/elixir"));
     });
   }),
-  erlangRepl: (0, _createLanguageAsyncLoader.default)("erlangRepl", function () {
+  elm: (0, _createLanguageAsyncLoader["default"])("elm", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/erlang-repl");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/elm"));
     });
   }),
-  erlang: (0, _createLanguageAsyncLoader.default)("erlang", function () {
+  erb: (0, _createLanguageAsyncLoader["default"])("erb", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/erlang");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/erb"));
     });
   }),
-  excel: (0, _createLanguageAsyncLoader.default)("excel", function () {
+  erlangRepl: (0, _createLanguageAsyncLoader["default"])("erlangRepl", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/excel");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/erlang-repl"));
     });
   }),
-  fix: (0, _createLanguageAsyncLoader.default)("fix", function () {
+  erlang: (0, _createLanguageAsyncLoader["default"])("erlang", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/fix");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/erlang"));
     });
   }),
-  flix: (0, _createLanguageAsyncLoader.default)("flix", function () {
+  excel: (0, _createLanguageAsyncLoader["default"])("excel", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/flix");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/excel"));
     });
   }),
-  fortran: (0, _createLanguageAsyncLoader.default)("fortran", function () {
+  fix: (0, _createLanguageAsyncLoader["default"])("fix", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/fortran");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/fix"));
     });
   }),
-  fsharp: (0, _createLanguageAsyncLoader.default)("fsharp", function () {
+  flix: (0, _createLanguageAsyncLoader["default"])("flix", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/fsharp");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/flix"));
     });
   }),
-  gams: (0, _createLanguageAsyncLoader.default)("gams", function () {
+  fortran: (0, _createLanguageAsyncLoader["default"])("fortran", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/gams");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/fortran"));
     });
   }),
-  gauss: (0, _createLanguageAsyncLoader.default)("gauss", function () {
+  fsharp: (0, _createLanguageAsyncLoader["default"])("fsharp", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/gauss");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/fsharp"));
     });
   }),
-  gcode: (0, _createLanguageAsyncLoader.default)("gcode", function () {
+  gams: (0, _createLanguageAsyncLoader["default"])("gams", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/gcode");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/gams"));
     });
   }),
-  gherkin: (0, _createLanguageAsyncLoader.default)("gherkin", function () {
+  gauss: (0, _createLanguageAsyncLoader["default"])("gauss", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/gherkin");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/gauss"));
     });
   }),
-  glsl: (0, _createLanguageAsyncLoader.default)("glsl", function () {
+  gcode: (0, _createLanguageAsyncLoader["default"])("gcode", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/glsl");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/gcode"));
     });
   }),
-  gml: (0, _createLanguageAsyncLoader.default)("gml", function () {
+  gherkin: (0, _createLanguageAsyncLoader["default"])("gherkin", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/gml");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/gherkin"));
     });
   }),
-  go: (0, _createLanguageAsyncLoader.default)("go", function () {
+  glsl: (0, _createLanguageAsyncLoader["default"])("glsl", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/go");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/glsl"));
     });
   }),
-  golo: (0, _createLanguageAsyncLoader.default)("golo", function () {
+  gml: (0, _createLanguageAsyncLoader["default"])("gml", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/golo");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/gml"));
     });
   }),
-  gradle: (0, _createLanguageAsyncLoader.default)("gradle", function () {
+  go: (0, _createLanguageAsyncLoader["default"])("go", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/gradle");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/go"));
     });
   }),
-  groovy: (0, _createLanguageAsyncLoader.default)("groovy", function () {
+  golo: (0, _createLanguageAsyncLoader["default"])("golo", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/groovy");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/golo"));
     });
   }),
-  haml: (0, _createLanguageAsyncLoader.default)("haml", function () {
+  gradle: (0, _createLanguageAsyncLoader["default"])("gradle", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/haml");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/gradle"));
     });
   }),
-  handlebars: (0, _createLanguageAsyncLoader.default)("handlebars", function () {
+  groovy: (0, _createLanguageAsyncLoader["default"])("groovy", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/handlebars");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/groovy"));
     });
   }),
-  haskell: (0, _createLanguageAsyncLoader.default)("haskell", function () {
+  haml: (0, _createLanguageAsyncLoader["default"])("haml", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/haskell");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/haml"));
     });
   }),
-  haxe: (0, _createLanguageAsyncLoader.default)("haxe", function () {
+  handlebars: (0, _createLanguageAsyncLoader["default"])("handlebars", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/haxe");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/handlebars"));
     });
   }),
-  hsp: (0, _createLanguageAsyncLoader.default)("hsp", function () {
+  haskell: (0, _createLanguageAsyncLoader["default"])("haskell", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/hsp");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/haskell"));
     });
   }),
-  htmlbars: (0, _createLanguageAsyncLoader.default)("htmlbars", function () {
+  haxe: (0, _createLanguageAsyncLoader["default"])("haxe", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/htmlbars");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/haxe"));
     });
   }),
-  http: (0, _createLanguageAsyncLoader.default)("http", function () {
+  hsp: (0, _createLanguageAsyncLoader["default"])("hsp", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/http");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/hsp"));
     });
   }),
-  hy: (0, _createLanguageAsyncLoader.default)("hy", function () {
+  htmlbars: (0, _createLanguageAsyncLoader["default"])("htmlbars", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/hy");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/htmlbars"));
     });
   }),
-  inform7: (0, _createLanguageAsyncLoader.default)("inform7", function () {
+  http: (0, _createLanguageAsyncLoader["default"])("http", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/inform7");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/http"));
     });
   }),
-  ini: (0, _createLanguageAsyncLoader.default)("ini", function () {
+  hy: (0, _createLanguageAsyncLoader["default"])("hy", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/ini");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/hy"));
     });
   }),
-  irpf90: (0, _createLanguageAsyncLoader.default)("irpf90", function () {
+  inform7: (0, _createLanguageAsyncLoader["default"])("inform7", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/irpf90");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/inform7"));
     });
   }),
-  isbl: (0, _createLanguageAsyncLoader.default)("isbl", function () {
+  ini: (0, _createLanguageAsyncLoader["default"])("ini", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/isbl");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/ini"));
     });
   }),
-  java: (0, _createLanguageAsyncLoader.default)("java", function () {
+  irpf90: (0, _createLanguageAsyncLoader["default"])("irpf90", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/java");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/irpf90"));
     });
   }),
-  javascript: (0, _createLanguageAsyncLoader.default)("javascript", function () {
+  isbl: (0, _createLanguageAsyncLoader["default"])("isbl", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/javascript");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/isbl"));
     });
   }),
-  jbossCli: (0, _createLanguageAsyncLoader.default)("jbossCli", function () {
+  java: (0, _createLanguageAsyncLoader["default"])("java", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/jboss-cli");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/java"));
     });
   }),
-  json: (0, _createLanguageAsyncLoader.default)("json", function () {
+  javascript: (0, _createLanguageAsyncLoader["default"])("javascript", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/json");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/javascript"));
     });
   }),
-  juliaRepl: (0, _createLanguageAsyncLoader.default)("juliaRepl", function () {
+  jbossCli: (0, _createLanguageAsyncLoader["default"])("jbossCli", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/julia-repl");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/jboss-cli"));
     });
   }),
-  julia: (0, _createLanguageAsyncLoader.default)("julia", function () {
+  json: (0, _createLanguageAsyncLoader["default"])("json", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/julia");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/json"));
     });
   }),
-  kotlin: (0, _createLanguageAsyncLoader.default)("kotlin", function () {
+  juliaRepl: (0, _createLanguageAsyncLoader["default"])("juliaRepl", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/kotlin");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/julia-repl"));
     });
   }),
-  lasso: (0, _createLanguageAsyncLoader.default)("lasso", function () {
+  julia: (0, _createLanguageAsyncLoader["default"])("julia", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/lasso");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/julia"));
     });
   }),
-  ldif: (0, _createLanguageAsyncLoader.default)("ldif", function () {
+  kotlin: (0, _createLanguageAsyncLoader["default"])("kotlin", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/ldif");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/kotlin"));
     });
   }),
-  leaf: (0, _createLanguageAsyncLoader.default)("leaf", function () {
+  lasso: (0, _createLanguageAsyncLoader["default"])("lasso", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/leaf");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/lasso"));
     });
   }),
-  less: (0, _createLanguageAsyncLoader.default)("less", function () {
+  latex: (0, _createLanguageAsyncLoader["default"])("latex", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/less");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/latex"));
     });
   }),
-  lisp: (0, _createLanguageAsyncLoader.default)("lisp", function () {
+  ldif: (0, _createLanguageAsyncLoader["default"])("ldif", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/lisp");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/ldif"));
     });
   }),
-  livecodeserver: (0, _createLanguageAsyncLoader.default)("livecodeserver", function () {
+  leaf: (0, _createLanguageAsyncLoader["default"])("leaf", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/livecodeserver");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/leaf"));
     });
   }),
-  livescript: (0, _createLanguageAsyncLoader.default)("livescript", function () {
+  less: (0, _createLanguageAsyncLoader["default"])("less", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/livescript");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/less"));
     });
   }),
-  llvm: (0, _createLanguageAsyncLoader.default)("llvm", function () {
+  lisp: (0, _createLanguageAsyncLoader["default"])("lisp", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/llvm");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/lisp"));
     });
   }),
-  lsl: (0, _createLanguageAsyncLoader.default)("lsl", function () {
+  livecodeserver: (0, _createLanguageAsyncLoader["default"])("livecodeserver", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/lsl");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/livecodeserver"));
     });
   }),
-  lua: (0, _createLanguageAsyncLoader.default)("lua", function () {
+  livescript: (0, _createLanguageAsyncLoader["default"])("livescript", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/lua");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/livescript"));
     });
   }),
-  makefile: (0, _createLanguageAsyncLoader.default)("makefile", function () {
+  llvm: (0, _createLanguageAsyncLoader["default"])("llvm", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/makefile");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/llvm"));
     });
   }),
-  markdown: (0, _createLanguageAsyncLoader.default)("markdown", function () {
+  lsl: (0, _createLanguageAsyncLoader["default"])("lsl", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/markdown");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/lsl"));
     });
   }),
-  mathematica: (0, _createLanguageAsyncLoader.default)("mathematica", function () {
+  lua: (0, _createLanguageAsyncLoader["default"])("lua", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/mathematica");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/lua"));
     });
   }),
-  matlab: (0, _createLanguageAsyncLoader.default)("matlab", function () {
+  makefile: (0, _createLanguageAsyncLoader["default"])("makefile", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/matlab");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/makefile"));
     });
   }),
-  maxima: (0, _createLanguageAsyncLoader.default)("maxima", function () {
+  markdown: (0, _createLanguageAsyncLoader["default"])("markdown", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/maxima");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/markdown"));
     });
   }),
-  mel: (0, _createLanguageAsyncLoader.default)("mel", function () {
+  mathematica: (0, _createLanguageAsyncLoader["default"])("mathematica", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/mel");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/mathematica"));
     });
   }),
-  mercury: (0, _createLanguageAsyncLoader.default)("mercury", function () {
+  matlab: (0, _createLanguageAsyncLoader["default"])("matlab", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/mercury");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/matlab"));
     });
   }),
-  mipsasm: (0, _createLanguageAsyncLoader.default)("mipsasm", function () {
+  maxima: (0, _createLanguageAsyncLoader["default"])("maxima", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/mipsasm");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/maxima"));
     });
   }),
-  mizar: (0, _createLanguageAsyncLoader.default)("mizar", function () {
+  mel: (0, _createLanguageAsyncLoader["default"])("mel", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/mizar");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/mel"));
     });
   }),
-  mojolicious: (0, _createLanguageAsyncLoader.default)("mojolicious", function () {
+  mercury: (0, _createLanguageAsyncLoader["default"])("mercury", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/mojolicious");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/mercury"));
     });
   }),
-  monkey: (0, _createLanguageAsyncLoader.default)("monkey", function () {
+  mipsasm: (0, _createLanguageAsyncLoader["default"])("mipsasm", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/monkey");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/mipsasm"));
     });
   }),
-  moonscript: (0, _createLanguageAsyncLoader.default)("moonscript", function () {
+  mizar: (0, _createLanguageAsyncLoader["default"])("mizar", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/moonscript");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/mizar"));
     });
   }),
-  n1ql: (0, _createLanguageAsyncLoader.default)("n1ql", function () {
+  mojolicious: (0, _createLanguageAsyncLoader["default"])("mojolicious", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/n1ql");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/mojolicious"));
     });
   }),
-  nginx: (0, _createLanguageAsyncLoader.default)("nginx", function () {
+  monkey: (0, _createLanguageAsyncLoader["default"])("monkey", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/nginx");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/monkey"));
     });
   }),
-  nimrod: (0, _createLanguageAsyncLoader.default)("nimrod", function () {
+  moonscript: (0, _createLanguageAsyncLoader["default"])("moonscript", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/nimrod");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/moonscript"));
     });
   }),
-  nix: (0, _createLanguageAsyncLoader.default)("nix", function () {
+  n1ql: (0, _createLanguageAsyncLoader["default"])("n1ql", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/nix");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/n1ql"));
     });
   }),
-  nsis: (0, _createLanguageAsyncLoader.default)("nsis", function () {
+  nginx: (0, _createLanguageAsyncLoader["default"])("nginx", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/nsis");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/nginx"));
     });
   }),
-  objectivec: (0, _createLanguageAsyncLoader.default)("objectivec", function () {
+  nim: (0, _createLanguageAsyncLoader["default"])("nim", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/objectivec");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/nim"));
     });
   }),
-  ocaml: (0, _createLanguageAsyncLoader.default)("ocaml", function () {
+  nix: (0, _createLanguageAsyncLoader["default"])("nix", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/ocaml");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/nix"));
     });
   }),
-  openscad: (0, _createLanguageAsyncLoader.default)("openscad", function () {
+  nsis: (0, _createLanguageAsyncLoader["default"])("nsis", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/openscad");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/nsis"));
     });
   }),
-  oxygene: (0, _createLanguageAsyncLoader.default)("oxygene", function () {
+  objectivec: (0, _createLanguageAsyncLoader["default"])("objectivec", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/oxygene");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/objectivec"));
     });
   }),
-  parser3: (0, _createLanguageAsyncLoader.default)("parser3", function () {
+  ocaml: (0, _createLanguageAsyncLoader["default"])("ocaml", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/parser3");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/ocaml"));
     });
   }),
-  perl: (0, _createLanguageAsyncLoader.default)("perl", function () {
+  openscad: (0, _createLanguageAsyncLoader["default"])("openscad", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/perl");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/openscad"));
     });
   }),
-  pf: (0, _createLanguageAsyncLoader.default)("pf", function () {
+  oxygene: (0, _createLanguageAsyncLoader["default"])("oxygene", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/pf");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/oxygene"));
     });
   }),
-  pgsql: (0, _createLanguageAsyncLoader.default)("pgsql", function () {
+  parser3: (0, _createLanguageAsyncLoader["default"])("parser3", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/pgsql");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/parser3"));
     });
   }),
-  php: (0, _createLanguageAsyncLoader.default)("php", function () {
+  perl: (0, _createLanguageAsyncLoader["default"])("perl", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/php");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/perl"));
     });
   }),
-  plaintext: (0, _createLanguageAsyncLoader.default)("plaintext", function () {
+  pf: (0, _createLanguageAsyncLoader["default"])("pf", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/plaintext");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/pf"));
     });
   }),
-  pony: (0, _createLanguageAsyncLoader.default)("pony", function () {
+  pgsql: (0, _createLanguageAsyncLoader["default"])("pgsql", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/pony");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/pgsql"));
     });
   }),
-  powershell: (0, _createLanguageAsyncLoader.default)("powershell", function () {
+  phpTemplate: (0, _createLanguageAsyncLoader["default"])("phpTemplate", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/powershell");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/php-template"));
     });
   }),
-  processing: (0, _createLanguageAsyncLoader.default)("processing", function () {
+  php: (0, _createLanguageAsyncLoader["default"])("php", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/processing");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/php"));
     });
   }),
-  profile: (0, _createLanguageAsyncLoader.default)("profile", function () {
+  plaintext: (0, _createLanguageAsyncLoader["default"])("plaintext", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/profile");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/plaintext"));
     });
   }),
-  prolog: (0, _createLanguageAsyncLoader.default)("prolog", function () {
+  pony: (0, _createLanguageAsyncLoader["default"])("pony", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/prolog");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/pony"));
     });
   }),
-  properties: (0, _createLanguageAsyncLoader.default)("properties", function () {
+  powershell: (0, _createLanguageAsyncLoader["default"])("powershell", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/properties");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/powershell"));
     });
   }),
-  protobuf: (0, _createLanguageAsyncLoader.default)("protobuf", function () {
+  processing: (0, _createLanguageAsyncLoader["default"])("processing", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/protobuf");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/processing"));
     });
   }),
-  puppet: (0, _createLanguageAsyncLoader.default)("puppet", function () {
+  profile: (0, _createLanguageAsyncLoader["default"])("profile", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/puppet");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/profile"));
     });
   }),
-  purebasic: (0, _createLanguageAsyncLoader.default)("purebasic", function () {
+  prolog: (0, _createLanguageAsyncLoader["default"])("prolog", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/purebasic");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/prolog"));
     });
   }),
-  python: (0, _createLanguageAsyncLoader.default)("python", function () {
+  properties: (0, _createLanguageAsyncLoader["default"])("properties", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/python");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/properties"));
     });
   }),
-  q: (0, _createLanguageAsyncLoader.default)("q", function () {
+  protobuf: (0, _createLanguageAsyncLoader["default"])("protobuf", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/q");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/protobuf"));
     });
   }),
-  qml: (0, _createLanguageAsyncLoader.default)("qml", function () {
+  puppet: (0, _createLanguageAsyncLoader["default"])("puppet", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/qml");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/puppet"));
     });
   }),
-  r: (0, _createLanguageAsyncLoader.default)("r", function () {
+  purebasic: (0, _createLanguageAsyncLoader["default"])("purebasic", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/r");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/purebasic"));
     });
   }),
-  reasonml: (0, _createLanguageAsyncLoader.default)("reasonml", function () {
+  pythonRepl: (0, _createLanguageAsyncLoader["default"])("pythonRepl", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/reasonml");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/python-repl"));
     });
   }),
-  rib: (0, _createLanguageAsyncLoader.default)("rib", function () {
+  python: (0, _createLanguageAsyncLoader["default"])("python", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/rib");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/python"));
     });
   }),
-  roboconf: (0, _createLanguageAsyncLoader.default)("roboconf", function () {
+  q: (0, _createLanguageAsyncLoader["default"])("q", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/roboconf");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/q"));
     });
   }),
-  routeros: (0, _createLanguageAsyncLoader.default)("routeros", function () {
+  qml: (0, _createLanguageAsyncLoader["default"])("qml", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/routeros");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/qml"));
     });
   }),
-  rsl: (0, _createLanguageAsyncLoader.default)("rsl", function () {
+  r: (0, _createLanguageAsyncLoader["default"])("r", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/rsl");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/r"));
     });
   }),
-  ruby: (0, _createLanguageAsyncLoader.default)("ruby", function () {
+  reasonml: (0, _createLanguageAsyncLoader["default"])("reasonml", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/ruby");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/reasonml"));
     });
   }),
-  ruleslanguage: (0, _createLanguageAsyncLoader.default)("ruleslanguage", function () {
+  rib: (0, _createLanguageAsyncLoader["default"])("rib", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/ruleslanguage");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/rib"));
     });
   }),
-  rust: (0, _createLanguageAsyncLoader.default)("rust", function () {
+  roboconf: (0, _createLanguageAsyncLoader["default"])("roboconf", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/rust");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/roboconf"));
     });
   }),
-  sas: (0, _createLanguageAsyncLoader.default)("sas", function () {
+  routeros: (0, _createLanguageAsyncLoader["default"])("routeros", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/sas");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/routeros"));
     });
   }),
-  scala: (0, _createLanguageAsyncLoader.default)("scala", function () {
+  rsl: (0, _createLanguageAsyncLoader["default"])("rsl", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/scala");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/rsl"));
     });
   }),
-  scheme: (0, _createLanguageAsyncLoader.default)("scheme", function () {
+  ruby: (0, _createLanguageAsyncLoader["default"])("ruby", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/scheme");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/ruby"));
     });
   }),
-  scilab: (0, _createLanguageAsyncLoader.default)("scilab", function () {
+  ruleslanguage: (0, _createLanguageAsyncLoader["default"])("ruleslanguage", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/scilab");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/ruleslanguage"));
     });
   }),
-  scss: (0, _createLanguageAsyncLoader.default)("scss", function () {
+  rust: (0, _createLanguageAsyncLoader["default"])("rust", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/scss");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/rust"));
     });
   }),
-  shell: (0, _createLanguageAsyncLoader.default)("shell", function () {
+  sas: (0, _createLanguageAsyncLoader["default"])("sas", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/shell");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/sas"));
     });
   }),
-  smali: (0, _createLanguageAsyncLoader.default)("smali", function () {
+  scala: (0, _createLanguageAsyncLoader["default"])("scala", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/smali");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/scala"));
     });
   }),
-  smalltalk: (0, _createLanguageAsyncLoader.default)("smalltalk", function () {
+  scheme: (0, _createLanguageAsyncLoader["default"])("scheme", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/smalltalk");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/scheme"));
     });
   }),
-  sml: (0, _createLanguageAsyncLoader.default)("sml", function () {
+  scilab: (0, _createLanguageAsyncLoader["default"])("scilab", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/sml");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/scilab"));
     });
   }),
-  sqf: (0, _createLanguageAsyncLoader.default)("sqf", function () {
+  scss: (0, _createLanguageAsyncLoader["default"])("scss", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/sqf");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/scss"));
     });
   }),
-  sql: (0, _createLanguageAsyncLoader.default)("sql", function () {
+  shell: (0, _createLanguageAsyncLoader["default"])("shell", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/sql");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/shell"));
     });
   }),
-  stan: (0, _createLanguageAsyncLoader.default)("stan", function () {
+  smali: (0, _createLanguageAsyncLoader["default"])("smali", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/stan");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/smali"));
     });
   }),
-  stata: (0, _createLanguageAsyncLoader.default)("stata", function () {
+  smalltalk: (0, _createLanguageAsyncLoader["default"])("smalltalk", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/stata");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/smalltalk"));
     });
   }),
-  step21: (0, _createLanguageAsyncLoader.default)("step21", function () {
+  sml: (0, _createLanguageAsyncLoader["default"])("sml", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/step21");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/sml"));
     });
   }),
-  stylus: (0, _createLanguageAsyncLoader.default)("stylus", function () {
+  sqf: (0, _createLanguageAsyncLoader["default"])("sqf", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/stylus");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/sqf"));
     });
   }),
-  subunit: (0, _createLanguageAsyncLoader.default)("subunit", function () {
+  sql: (0, _createLanguageAsyncLoader["default"])("sql", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/subunit");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/sql"));
     });
   }),
-  swift: (0, _createLanguageAsyncLoader.default)("swift", function () {
+  stan: (0, _createLanguageAsyncLoader["default"])("stan", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/swift");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/stan"));
     });
   }),
-  taggerscript: (0, _createLanguageAsyncLoader.default)("taggerscript", function () {
+  stata: (0, _createLanguageAsyncLoader["default"])("stata", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/taggerscript");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/stata"));
     });
   }),
-  tap: (0, _createLanguageAsyncLoader.default)("tap", function () {
+  step21: (0, _createLanguageAsyncLoader["default"])("step21", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/tap");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/step21"));
     });
   }),
-  tcl: (0, _createLanguageAsyncLoader.default)("tcl", function () {
+  stylus: (0, _createLanguageAsyncLoader["default"])("stylus", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/tcl");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/stylus"));
     });
   }),
-  tex: (0, _createLanguageAsyncLoader.default)("tex", function () {
+  subunit: (0, _createLanguageAsyncLoader["default"])("subunit", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/tex");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/subunit"));
     });
   }),
-  thrift: (0, _createLanguageAsyncLoader.default)("thrift", function () {
+  swift: (0, _createLanguageAsyncLoader["default"])("swift", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/thrift");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/swift"));
     });
   }),
-  tp: (0, _createLanguageAsyncLoader.default)("tp", function () {
+  taggerscript: (0, _createLanguageAsyncLoader["default"])("taggerscript", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/tp");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/taggerscript"));
     });
   }),
-  twig: (0, _createLanguageAsyncLoader.default)("twig", function () {
+  tap: (0, _createLanguageAsyncLoader["default"])("tap", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/twig");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/tap"));
     });
   }),
-  typescript: (0, _createLanguageAsyncLoader.default)("typescript", function () {
+  tcl: (0, _createLanguageAsyncLoader["default"])("tcl", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/typescript");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/tcl"));
     });
   }),
-  vala: (0, _createLanguageAsyncLoader.default)("vala", function () {
+  thrift: (0, _createLanguageAsyncLoader["default"])("thrift", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/vala");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/thrift"));
     });
   }),
-  vbnet: (0, _createLanguageAsyncLoader.default)("vbnet", function () {
+  tp: (0, _createLanguageAsyncLoader["default"])("tp", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/vbnet");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/tp"));
     });
   }),
-  vbscriptHtml: (0, _createLanguageAsyncLoader.default)("vbscriptHtml", function () {
+  twig: (0, _createLanguageAsyncLoader["default"])("twig", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/vbscript-html");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/twig"));
     });
   }),
-  vbscript: (0, _createLanguageAsyncLoader.default)("vbscript", function () {
+  typescript: (0, _createLanguageAsyncLoader["default"])("typescript", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/vbscript");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/typescript"));
     });
   }),
-  verilog: (0, _createLanguageAsyncLoader.default)("verilog", function () {
+  vala: (0, _createLanguageAsyncLoader["default"])("vala", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/verilog");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/vala"));
     });
   }),
-  vhdl: (0, _createLanguageAsyncLoader.default)("vhdl", function () {
+  vbnet: (0, _createLanguageAsyncLoader["default"])("vbnet", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/vhdl");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/vbnet"));
     });
   }),
-  vim: (0, _createLanguageAsyncLoader.default)("vim", function () {
+  vbscriptHtml: (0, _createLanguageAsyncLoader["default"])("vbscriptHtml", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/vim");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/vbscript-html"));
     });
   }),
-  x86asm: (0, _createLanguageAsyncLoader.default)("x86asm", function () {
+  vbscript: (0, _createLanguageAsyncLoader["default"])("vbscript", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/x86asm");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/vbscript"));
     });
   }),
-  xl: (0, _createLanguageAsyncLoader.default)("xl", function () {
+  verilog: (0, _createLanguageAsyncLoader["default"])("verilog", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/xl");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/verilog"));
     });
   }),
-  xml: (0, _createLanguageAsyncLoader.default)("xml", function () {
+  vhdl: (0, _createLanguageAsyncLoader["default"])("vhdl", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/xml");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/vhdl"));
     });
   }),
-  xquery: (0, _createLanguageAsyncLoader.default)("xquery", function () {
+  vim: (0, _createLanguageAsyncLoader["default"])("vim", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/xquery");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/vim"));
     });
   }),
-  yaml: (0, _createLanguageAsyncLoader.default)("yaml", function () {
+  x86asm: (0, _createLanguageAsyncLoader["default"])("x86asm", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/yaml");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/x86asm"));
     });
   }),
-  zephir: (0, _createLanguageAsyncLoader.default)("zephir", function () {
+  xl: (0, _createLanguageAsyncLoader["default"])("xl", function () {
     return Promise.resolve().then(function () {
-      return require("highlight.js/lib/languages/zephir");
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/xl"));
+    });
+  }),
+  xml: (0, _createLanguageAsyncLoader["default"])("xml", function () {
+    return Promise.resolve().then(function () {
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/xml"));
+    });
+  }),
+  xquery: (0, _createLanguageAsyncLoader["default"])("xquery", function () {
+    return Promise.resolve().then(function () {
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/xquery"));
+    });
+  }),
+  yaml: (0, _createLanguageAsyncLoader["default"])("yaml", function () {
+    return Promise.resolve().then(function () {
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/yaml"));
+    });
+  }),
+  zephir: (0, _createLanguageAsyncLoader["default"])("zephir", function () {
+    return Promise.resolve().then(function () {
+      return (0, _interopRequireWildcard2["default"])(require("highlight.js/lib/languages/zephir"));
     });
   })
 };
-exports.default = _default;
+exports["default"] = _default;

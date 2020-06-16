@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = void 0;
+exports["default"] = void 0;
 var _default = {
   "code[class*=\"language-\"]": {
     "color": "#b9b5b8",
@@ -149,4 +149,4 @@ var _default = {
     "OutlineOffset": ".4em"
   }
 };
-exports.default = _default;
+exports["default"] = _default;

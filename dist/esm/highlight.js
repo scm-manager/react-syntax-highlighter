@@ -1,5 +1,10 @@
 import _objectWithoutProperties from "@babel/runtime/helpers/objectWithoutProperties";
-import _objectSpread from "@babel/runtime/helpers/objectSpread";
+import _defineProperty from "@babel/runtime/helpers/defineProperty";
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
 import React from 'react';
 import createElement from './create-element';
 var newLineRegex = /\n/g;
@@ -14,7 +19,7 @@ function getAllLineNumbers(_ref) {
       style = _ref.style;
   return lines.map(function (_, i) {
     var number = i + startingLineNumber;
-    return React.createElement("span", {
+    return /*#__PURE__*/React.createElement("span", {
       key: "line-".concat(i),
       className: "react-syntax-highlighter-line-number",
       style: typeof style === 'function' ? style(number) : style
@@ -27,13 +32,13 @@ function AllLineNumbers(_ref2) {
       codeStyle = _ref2.codeStyle,
       _ref2$containerStyle = _ref2.containerStyle,
       containerStyle = _ref2$containerStyle === void 0 ? {
-    float: 'left',
+    "float": 'left',
     paddingRight: '10px'
   } : _ref2$containerStyle,
       _ref2$numberStyle = _ref2.numberStyle,
       numberStyle = _ref2$numberStyle === void 0 ? {} : _ref2$numberStyle,
       startingLineNumber = _ref2.startingLineNumber;
-  return React.createElement("code", {
+  return /*#__PURE__*/React.createElement("code", {
     style: Object.assign({}, codeStyle, containerStyle)
   }, getAllLineNumbers({
     lines: codeString.replace(/\n$/, '').split('\n'),
@@ -75,7 +80,7 @@ function assembleLineNumberStyles(lineNumberStyle, largestLineNumber) {
 
   var customLineNumberStyle = typeof lineNumberStyle === 'function' ? lineNumberStyle(lineNumber) : lineNumberStyle; // combine
 
-  var assembledStyle = _objectSpread({}, defaultLineNumberStyle, customLineNumberStyle);
+  var assembledStyle = _objectSpread(_objectSpread({}, defaultLineNumberStyle), customLineNumberStyle);
 
   return assembledStyle;
 }
@@ -322,7 +327,7 @@ export default function (defaultAstGenerator, defaultStyle) {
         rest = _objectWithoutProperties(_ref7, ["language", "children", "style", "customStyle", "codeTagProps", "useInlineStyles", "showLineNumbers", "showInlineLineNumbers", "startingLineNumber", "lineNumberContainerStyle", "lineNumberStyle", "wrapLines", "lineProps", "renderer", "PreTag", "CodeTag", "code", "astGenerator"]);
 
     astGenerator = astGenerator || defaultAstGenerator;
-    var allLineNumbers = showLineNumbers ? React.createElement(AllLineNumbers, {
+    var allLineNumbers = showLineNumbers ? /*#__PURE__*/React.createElement(AllLineNumbers, {
       containerStyle: lineNumberContainerStyle,
       codeStyle: codeTagProps.style || {},
       numberStyle: lineNumberStyle,
@@ -339,7 +344,7 @@ export default function (defaultAstGenerator, defaultStyle) {
     });
 
     if (!astGenerator) {
-      return React.createElement(PreTag, preProps, allLineNumbers, React.createElement(CodeTag, codeTagProps, code));
+      return /*#__PURE__*/React.createElement(PreTag, preProps, allLineNumbers, /*#__PURE__*/React.createElement(CodeTag, codeTagProps, code));
     }
     /*
      * some custom renderers rely on individual row elements so we need to turn wrapLines on
@@ -367,7 +372,7 @@ export default function (defaultAstGenerator, defaultStyle) {
 
     var largestLineNumber = codeTree.value.length + startingLineNumber;
     var rows = processLines(codeTree, wrapLines, lineProps, showLineNumbers, showInlineLineNumbers, startingLineNumber, largestLineNumber, lineNumberStyle);
-    return React.createElement(PreTag, preProps, React.createElement(CodeTag, codeTagProps, !showInlineLineNumbers && allLineNumbers, renderer({
+    return /*#__PURE__*/React.createElement(PreTag, preProps, /*#__PURE__*/React.createElement(CodeTag, codeTagProps, !showInlineLineNumbers && allLineNumbers, renderer({
       rows: rows,
       stylesheet: style,
       useInlineStyles: useInlineStyles

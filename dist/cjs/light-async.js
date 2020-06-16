@@ -5,28 +5,30 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = void 0;
+exports["default"] = void 0;
+
+var _interopRequireWildcard2 = _interopRequireDefault(require("@babel/runtime/helpers/interopRequireWildcard"));
 
 var _asyncSyntaxHighlighter = _interopRequireDefault(require("./async-syntax-highlighter"));
 
 var _hljs = _interopRequireDefault(require("./async-languages/hljs"));
 
-var _default = (0, _asyncSyntaxHighlighter.default)({
+var _default = (0, _asyncSyntaxHighlighter["default"])({
   loader: function loader() {
     return Promise.resolve().then(function () {
-      return require('lowlight/lib/core');
+      return (0, _interopRequireWildcard2["default"])(require('lowlight/lib/core'));
     }).then(function (module) {
       // Webpack 3 returns module.exports as default as module, but webpack 4 returns module.exports as module.default
-      return module.default || module;
+      return module["default"] || module;
     });
   },
   isLanguageRegistered: function isLanguageRegistered(instance, language) {
     return !!instance.getLanguage(language);
   },
-  languageLoaders: _hljs.default,
+  languageLoaders: _hljs["default"],
   registerLanguage: function registerLanguage(instance, name, language) {
     return instance.registerLanguage(name, language);
   }
 });
 
-exports.default = _default;
+exports["default"] = _default;

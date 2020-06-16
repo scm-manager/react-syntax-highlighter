@@ -5,15 +5,19 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = _default;
+exports["default"] = _default;
 
 var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutProperties"));
 
-var _objectSpread2 = _interopRequireDefault(require("@babel/runtime/helpers/objectSpread"));
+var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
 
 var _react = _interopRequireDefault(require("react"));
 
 var _createElement = _interopRequireDefault(require("./create-element"));
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0, _defineProperty2["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 var newLineRegex = /\n/g;
 
@@ -27,7 +31,7 @@ function getAllLineNumbers(_ref) {
       style = _ref.style;
   return lines.map(function (_, i) {
     var number = i + startingLineNumber;
-    return _react.default.createElement("span", {
+    return /*#__PURE__*/_react["default"].createElement("span", {
       key: "line-".concat(i),
       className: "react-syntax-highlighter-line-number",
       style: typeof style === 'function' ? style(number) : style
@@ -40,13 +44,13 @@ function AllLineNumbers(_ref2) {
       codeStyle = _ref2.codeStyle,
       _ref2$containerStyle = _ref2.containerStyle,
       containerStyle = _ref2$containerStyle === void 0 ? {
-    float: 'left',
+    "float": 'left',
     paddingRight: '10px'
   } : _ref2$containerStyle,
       _ref2$numberStyle = _ref2.numberStyle,
       numberStyle = _ref2$numberStyle === void 0 ? {} : _ref2$numberStyle,
       startingLineNumber = _ref2.startingLineNumber;
-  return _react.default.createElement("code", {
+  return /*#__PURE__*/_react["default"].createElement("code", {
     style: Object.assign({}, codeStyle, containerStyle)
   }, getAllLineNumbers({
     lines: codeString.replace(/\n$/, '').split('\n'),
@@ -88,7 +92,8 @@ function assembleLineNumberStyles(lineNumberStyle, largestLineNumber) {
 
   var customLineNumberStyle = typeof lineNumberStyle === 'function' ? lineNumberStyle(lineNumber) : lineNumberStyle; // combine
 
-  var assembledStyle = (0, _objectSpread2.default)({}, defaultLineNumberStyle, customLineNumberStyle);
+  var assembledStyle = _objectSpread(_objectSpread({}, defaultLineNumberStyle), customLineNumberStyle);
+
   return assembledStyle;
 }
 
@@ -254,7 +259,7 @@ function defaultRenderer(_ref5) {
       stylesheet = _ref5.stylesheet,
       useInlineStyles = _ref5.useInlineStyles;
   return rows.map(function (node, i) {
-    return (0, _createElement.default)({
+    return (0, _createElement["default"])({
       node: node,
       stylesheet: stylesheet,
       useInlineStyles: useInlineStyles,
@@ -331,9 +336,9 @@ function _default(defaultAstGenerator, defaultStyle) {
         _ref7$code = _ref7.code,
         code = _ref7$code === void 0 ? Array.isArray(children) ? children[0] : children : _ref7$code,
         astGenerator = _ref7.astGenerator,
-        rest = (0, _objectWithoutProperties2.default)(_ref7, ["language", "children", "style", "customStyle", "codeTagProps", "useInlineStyles", "showLineNumbers", "showInlineLineNumbers", "startingLineNumber", "lineNumberContainerStyle", "lineNumberStyle", "wrapLines", "lineProps", "renderer", "PreTag", "CodeTag", "code", "astGenerator"]);
+        rest = (0, _objectWithoutProperties2["default"])(_ref7, ["language", "children", "style", "customStyle", "codeTagProps", "useInlineStyles", "showLineNumbers", "showInlineLineNumbers", "startingLineNumber", "lineNumberContainerStyle", "lineNumberStyle", "wrapLines", "lineProps", "renderer", "PreTag", "CodeTag", "code", "astGenerator"]);
     astGenerator = astGenerator || defaultAstGenerator;
-    var allLineNumbers = showLineNumbers ? _react.default.createElement(AllLineNumbers, {
+    var allLineNumbers = showLineNumbers ? /*#__PURE__*/_react["default"].createElement(AllLineNumbers, {
       containerStyle: lineNumberContainerStyle,
       codeStyle: codeTagProps.style || {},
       numberStyle: lineNumberStyle,
@@ -350,7 +355,7 @@ function _default(defaultAstGenerator, defaultStyle) {
     });
 
     if (!astGenerator) {
-      return _react.default.createElement(PreTag, preProps, allLineNumbers, _react.default.createElement(CodeTag, codeTagProps, code));
+      return /*#__PURE__*/_react["default"].createElement(PreTag, preProps, allLineNumbers, /*#__PURE__*/_react["default"].createElement(CodeTag, codeTagProps, code));
     }
     /*
      * some custom renderers rely on individual row elements so we need to turn wrapLines on
@@ -378,7 +383,7 @@ function _default(defaultAstGenerator, defaultStyle) {
 
     var largestLineNumber = codeTree.value.length + startingLineNumber;
     var rows = processLines(codeTree, wrapLines, lineProps, showLineNumbers, showInlineLineNumbers, startingLineNumber, largestLineNumber, lineNumberStyle);
-    return _react.default.createElement(PreTag, preProps, _react.default.createElement(CodeTag, codeTagProps, !showInlineLineNumbers && allLineNumbers, renderer({
+    return /*#__PURE__*/_react["default"].createElement(PreTag, preProps, /*#__PURE__*/_react["default"].createElement(CodeTag, codeTagProps, !showInlineLineNumbers && allLineNumbers, renderer({
       rows: rows,
       stylesheet: style,
       useInlineStyles: useInlineStyles

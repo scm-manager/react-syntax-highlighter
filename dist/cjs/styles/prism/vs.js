@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = void 0;
+exports["default"] = void 0;
 var _default = {
   "code[class*=\"language-\"]": {
     "color": "#393A34",
@@ -206,4 +206,4 @@ var _default = {
     "background": "linear-gradient(to right, rgba(193, 222, 241, 0.2) 70%, rgba(221, 222, 241, 0))"
   }
 };
-exports.default = _default;
+exports["default"] = _default;

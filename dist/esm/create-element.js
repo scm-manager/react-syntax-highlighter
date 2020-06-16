@@ -1,11 +1,16 @@
 import _extends from "@babel/runtime/helpers/extends";
-import _objectSpread from "@babel/runtime/helpers/objectSpread";
+import _defineProperty from "@babel/runtime/helpers/defineProperty";
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
 import React from 'react';
 export function createStyleObject(classNames) {
   var elementStyle = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
   var stylesheet = arguments.length > 2 ? arguments[2] : undefined;
   return classNames.reduce(function (styleObject, className) {
-    return _objectSpread({}, styleObject, stylesheet[className]);
+    return _objectSpread(_objectSpread({}, styleObject), stylesheet[className]);
   }, elementStyle);
 }
 export function createClassNameString(classNames) {
@@ -45,15 +50,15 @@ export default function createElement(_ref) {
       return !stylesheet[className];
     });
     var className = nonStylesheetClassNames && nonStylesheetClassNames.length ? nonStylesheetClassNames : undefined;
-    var props = useInlineStyles ? _objectSpread({}, properties, {
+    var props = useInlineStyles ? _objectSpread(_objectSpread(_objectSpread({}, properties), {
       className: className && createClassNameString(className)
-    }, {
+    }), {}, {
       style: createStyleObject(properties.className, Object.assign({}, properties.style, style), stylesheet)
-    }) : _objectSpread({}, properties, {
+    }) : _objectSpread(_objectSpread({}, properties), {}, {
       className: createClassNameString(properties.className)
     });
     var children = childrenCreator(node.children);
-    return React.createElement(TagName, _extends({
+    return /*#__PURE__*/React.createElement(TagName, _extends({
       key: key
     }, props), children);
   }
